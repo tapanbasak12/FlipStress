@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stress Control</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="popup.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Stress Control Panel</h1>
+        <div class="input-group">
+            <label for="stressorType">Select Stressor Type:</label>
+            <select id="stressorType">
+                <option value="Stressors/readBuffer.js">Read Buffer Stressor</option>
+                <option value="Stressors/writeBuffer.js">Write Buffer Stressor</option>
+                <option value="Stressors/readLinkedList.js">Read Linked List Stressor</option>
+                <option value="Stressors/writeLinkedList.js">Write Linked List Stressor</option>
+                <option value="Stressors/stream.js">Stream Stressor</option>
+                <option value="Stressors/vm.js">VM Stressor</option>
+                <option value="Stressors/memcpy.js">Memcpy Stressor</option>
+                <option value="Stressors/allStressors.js">Run All Stressors</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="numWorkers">Number of Instances:</label>
+            <input type="number" id="numWorkers" placeholder="Enter number of instances" min="1" max="16">
+        </div>
+        <div class="button-group">
+            <button id="startWorkers">Start Stressor</button>
+            <button id="stopAllWorkers">Stop Stressor</button>
+        </div>
+        <div id="status"></div>
+    </div>
+</body>
+</html>
