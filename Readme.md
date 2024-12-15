@@ -1,6 +1,6 @@
 # FlipStress: Noise Injection Defenses Against CPU-Cache-Based Web Attacks
 
-## This repository contains resources for installing, running, and experimenting with **FlipStress**, an extension that injects noise to counter CPU-cache-based web attacks, specifically Targeted Deanonymization (TD) and Website Fingerprinting (WF). 
+## This repository contains resources for installing, running, and experimenting with **FlipStress**, a browser extension that injects noise to counter CPU-cache-based web attacks, specifically Targeted Deanonymization (TD) and Website Fingerprinting (WF). 
 ---
 
 ## Installation Instructions
@@ -28,8 +28,7 @@ The `Data_Collection` folder contains Selenium automation scripts to automate th
 ### Cache Trace Data
 The `Cache_Trace_Data` folder includes:
 - Cache trace data for **TD** under the influence of all fixed stressors and FlipStress.
-
-> **Note:** Data for 100 websites was too large to include in this repository. 
+- Due to the large size of the **WF** cache trace data, the complete dataset could not be included in this repository. Instead, demo data from two websites is provided in the `WF_Data` folder for reference.
 
 ### Models and Scripts
 The `Python_Files` folder contains:
