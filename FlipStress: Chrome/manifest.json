@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Stress Control",
+    "name": "FlipStress",
     "version": "1.0",
-    "description": "Manage persistent stress with Web Workers in a detached window.",
+    "description": "Noise based defense against cache based web attacks",
     "permissions": ["activeTab"],
     "background": {
       "service_worker": "background.js"
