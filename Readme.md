@@ -1,6 +1,6 @@
 # FlipStress: Noise Injection Defenses Against CPU-Cache-Based Web Attacks
 
-This repository contains resources for installing, running, and experimenting with **FlipStress**, an extension that injects noise to counter CPU-cache-based web attacks, specifically Targeted Deanonymization (TD) and Website Fingerprinting (WF). 
+##This repository contains resources for installing, running, and experimenting with **FlipStress**, an extension that injects noise to counter CPU-cache-based web attacks, specifically Targeted Deanonymization (TD) and Website Fingerprinting (WF). 
 ---
 
 ## Installation Instructions
